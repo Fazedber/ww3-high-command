@@ -421,6 +421,10 @@ Net.Intent.OnServerEvent:Connect(function(player: Player, intent)
 		if lobby.mode == "solo" and lobby.started then
 			-- Already on our own server: a fresh match right here is much faster
 			-- than reserving and teleporting to a new one.
+			-- ...with the settings picked in the menu, not the old ones
+			for key, value in cleanSettings(intent.settings) or {} do
+				setLobbySetting(key, value)
+			end
 			lobby.soloReset = true
 		else
 			Matchmaking.createSolo(player, cleanSettings(intent.settings))
@@ -577,14 +581,22 @@ end
 -- Solo server reached from the menu: apply the picked settings and start right away.
 local soloAutoStart = false
 if lobby.mode == "solo" then
-	for _, p in Players:GetPlayers() do
-		local data = p:GetJoinData().TeleportData
-		if type(data) == "table" and type(data.settings) == "table" then
-			for key, value in cleanSettings(data.settings) or {} do
-				setLobbySetting(key, value)
+	if type(script:GetAttribute("Settings")) == "string" then
+		-- A restart ("new game" / next match): the settings the player picked in
+		-- the menu were carried over and are already applied above. The teleport
+		-- data still holds the ORIGINAL map/difficulty, so it must not be
+		-- applied again (it used to override every later choice).
+		soloAutoStart = true
+	else
+		for _, p in Players:GetPlayers() do
+			local data = p:GetJoinData().TeleportData
+			if type(data) == "table" and type(data.settings) == "table" then
+				for key, value in cleanSettings(data.settings) or {} do
+					setLobbySetting(key, value)
+				end
+				soloAutoStart = true
+				break
 			end
-			soloAutoStart = true
-			break
 		end
 	end
 end
@@ -2136,6 +2148,10 @@ local function endMatch()
 	task.delay(NEXT_MATCH_SECONDS, function()
 		Net.Event:FireAllClients({ type = "MatchReset" })
 		local fresh = script:Clone()
+		if lobby.mode == "solo" then
+			-- the next solo match replays the settings of the last one
+			fresh:SetAttribute("Settings", HttpService:JSONEncode(lobby.settings))
+		end
 		fresh.Parent = script.Parent
 		script:Destroy()
 	end)
