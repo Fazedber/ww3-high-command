@@ -1,10 +1,10 @@
-# WW3: High Command - social media posts
+﻿# WW3: High Command - social media posts
 
 Game link: https://www.roblox.com/games/102627842655633
 
-Files in this folder (mp4 are not committed to git):
-- `ww3-short-en.mp4` / `ww3-short-ru.mp4` - 9:16, 27 s, real gameplay (Shorts / Reels / TikTok)
-- `ww3-trailer-16x9.mp4` - 16:9, 36 s, for the Creator Hub store page (Media) and YouTube
+Files in this folder (mp4 are not committed to git; rebuild with promo/remotion, see render.ps1):
+- `ww3-short-en.mp4` / `ww3-short-ru.mp4` - 9:16, 30 s, Remotion edit of real gameplay + original music (Shorts / Reels / TikTok)
+- `ww3-trailer-en-16x9.mp4` / `ww3-trailer-ru-16x9.mp4` - 16:9, 30 s, for the Creator Hub store page (Media) and YouTube
 
 ## Short EN (ww3-short-en.mp4)
 
@@ -30,3 +30,4 @@ Link: https://www.roblox.com/games/102627842655633
 - Reply to every comment in the first hour; pin a comment with the game link.
 - Reuse each video on YouTube Shorts and Instagram Reels (same file).
 - Post in Russian-speaking Roblox / strategy communities (Telegram, VK, Discord) with the RU version.
+

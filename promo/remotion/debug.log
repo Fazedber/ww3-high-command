@@ -1,0 +1,555 @@
+[1108/113001.177:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Code Cache\js
+[1108/113001.177:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Code Cache\wasm
+[1108/113001.177:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Network: Отказано в доступе. (0x5)
+[1108/113001.177:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Code Cache\js
+[1108/113001.177:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Code Cache\wasm
+[1108/113001.177:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Code Cache\js
+[1108/113001.177:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Code Cache\wasm
+[1108/113001.177:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113001.177:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113001.179:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113001.179:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113001.205:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113001.206:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113001.206:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113001.206:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113001.206:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113001.206:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113001.206:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113001.207:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113001.207:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113001.207:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113001.207:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113001.209:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113004.209:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113007.241:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-4N7kkO\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113013.218:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Code Cache\js
+[1108/113013.218:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Code Cache\wasm
+[1108/113013.219:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Code Cache\wasm
+[1108/113013.219:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Code Cache\wasm
+[1108/113013.219:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Code Cache\js
+[1108/113013.219:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Code Cache\js
+[1108/113013.219:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113013.219:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113013.219:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Network: Отказано в доступе. (0x5)
+[1108/113013.219:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113013.220:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113013.240:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113013.240:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113013.241:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113013.241:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113013.241:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113013.241:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113013.241:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113013.241:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113013.242:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113013.242:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113013.242:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113013.246:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113016.256:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113019.295:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113022.333:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-PZ32JQ\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113100.357:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Code Cache\wasm
+[1108/113100.357:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Code Cache\js
+[1108/113100.358:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Code Cache\wasm
+[1108/113100.358:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Code Cache\wasm
+[1108/113100.358:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Network: Отказано в доступе. (0x5)
+[1108/113100.358:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Code Cache\js
+[1108/113100.358:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Code Cache\js
+[1108/113100.358:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113100.358:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113100.358:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113100.358:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113100.377:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113100.378:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113100.378:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113100.378:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113100.379:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113100.379:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113100.379:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113100.379:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113100.379:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113100.380:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113100.380:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113100.385:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113103.387:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113106.415:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113109.442:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-dWpGw6\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113113.905:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Code Cache\js
+[1108/113113.905:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Code Cache\wasm
+[1108/113113.906:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Code Cache\js
+[1108/113113.906:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Code Cache\wasm
+[1108/113113.906:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Code Cache\js
+[1108/113113.906:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Code Cache\wasm
+[1108/113113.906:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Network: Отказано в доступе. (0x5)
+[1108/113113.906:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113113.906:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Операция успешно завершена. (0x0)
+[1108/113113.906:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113113.906:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113113.927:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113113.928:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113113.929:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113113.929:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113113.929:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113113.929:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113113.929:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113113.929:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113113.929:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113113.929:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113113.929:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113113.930:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113116.934:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113119.964:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113122.995:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-QUV8E0\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113127.524:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Code Cache\wasm
+[1108/113127.524:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Code Cache\js
+[1108/113127.524:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Code Cache\wasm
+[1108/113127.524:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Code Cache\wasm
+[1108/113127.524:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Network: Отказано в доступе. (0x5)
+[1108/113127.525:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Code Cache\js
+[1108/113127.525:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113127.525:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Code Cache\js
+[1108/113127.525:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113127.525:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113127.525:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113127.544:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113127.545:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113127.545:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113127.545:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113127.545:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113127.545:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113127.545:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113127.545:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113127.545:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113127.545:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113127.545:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113127.548:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113130.554:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113133.580:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113136.617:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-BkZg9b\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113141.253:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Code Cache\js
+[1108/113141.253:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Code Cache\wasm
+[1108/113141.254:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Code Cache\wasm
+[1108/113141.253:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Network: Отказано в доступе. (0x5)
+[1108/113141.254:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Code Cache\wasm
+[1108/113141.254:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Code Cache\js
+[1108/113141.254:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Code Cache\js
+[1108/113141.254:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113141.254:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113141.254:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113141.254:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113141.273:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113141.274:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113141.275:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113141.275:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113141.275:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113141.275:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113141.275:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113141.275:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113141.275:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113141.275:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113141.275:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113141.277:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113144.289:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113147.324:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113150.362:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-GKQ0C2\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113155.036:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Code Cache\wasm
+[1108/113155.036:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Code Cache\js
+[1108/113155.037:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Network: Отказано в доступе. (0x5)
+[1108/113155.037:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Code Cache\wasm
+[1108/113155.037:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Code Cache\wasm
+[1108/113155.037:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Code Cache\js
+[1108/113155.037:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Code Cache\js
+[1108/113155.037:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113155.037:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113155.037:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113155.038:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113155.056:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113155.058:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113155.058:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113155.058:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113155.058:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113155.059:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113155.059:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113155.059:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113155.059:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113155.059:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113155.059:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113155.059:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113158.071:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113201.107:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-qyUvpy\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113309.874:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Code Cache\wasm
+[1108/113309.874:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Code Cache\js
+[1108/113309.875:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Code Cache\wasm
+[1108/113309.875:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Code Cache\wasm
+[1108/113309.875:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Code Cache\js
+[1108/113309.875:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Code Cache\js
+[1108/113309.875:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Network: Отказано в доступе. (0x5)
+[1108/113309.875:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113309.875:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113309.875:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113309.875:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113309.895:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113309.896:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113309.896:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113309.896:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113309.896:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113309.897:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113309.897:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113309.897:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113309.897:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113309.897:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113309.897:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113309.898:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113312.890:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113315.919:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-9GzKei\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113321.198:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Code Cache\js
+[1108/113321.198:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Code Cache\wasm
+[1108/113321.199:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Code Cache\js
+[1108/113321.199:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Code Cache\js
+[1108/113321.199:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Code Cache\wasm
+[1108/113321.199:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Code Cache\wasm
+[1108/113321.199:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113321.199:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Network: Отказано в доступе. (0x5)
+[1108/113321.199:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113321.199:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113321.199:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113321.215:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113321.217:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113321.217:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113321.217:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113321.217:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113321.217:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113321.217:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113321.217:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113321.217:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113321.217:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113321.217:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113321.218:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113324.214:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113327.256:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-N8hL3h\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113332.473:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Code Cache\wasm
+[1108/113332.473:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Code Cache\js
+[1108/113332.474:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Network: Отказано в доступе. (0x5)
+[1108/113332.474:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Code Cache\wasm
+[1108/113332.474:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Code Cache\wasm
+[1108/113332.474:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Code Cache\js
+[1108/113332.474:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Code Cache\js
+[1108/113332.474:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113332.475:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113332.475:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113332.475:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113332.494:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113332.495:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113332.495:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113332.495:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113332.495:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113332.496:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113332.496:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113332.496:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113332.496:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113332.496:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113332.496:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113332.497:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113335.509:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113338.544:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-0rMYlk\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113346.616:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Code Cache\wasm
+[1108/113346.616:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Code Cache\js
+[1108/113346.616:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Code Cache\wasm
+[1108/113346.616:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Code Cache\wasm
+[1108/113346.616:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Code Cache\js
+[1108/113346.616:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Code Cache\js
+[1108/113346.616:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Network: Отказано в доступе. (0x5)
+[1108/113346.617:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113346.617:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113346.617:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113346.617:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113346.637:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113346.638:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113346.639:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113346.639:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113346.639:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113346.639:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113346.639:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113346.639:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113346.639:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113346.640:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113346.640:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113346.644:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113349.636:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113352.665:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hLP0Ff\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113402.670:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Code Cache\js
+[1108/113402.670:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Code Cache\wasm
+[1108/113402.670:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Network: Отказано в доступе. (0x5)
+[1108/113402.671:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Code Cache\js
+[1108/113402.671:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Code Cache\wasm
+[1108/113402.671:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Code Cache\js
+[1108/113402.671:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Code Cache\wasm
+[1108/113402.671:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113402.671:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113402.671:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113402.671:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113402.691:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113402.692:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113402.691:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113402.692:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113402.692:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113402.692:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113402.692:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113402.692:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113402.692:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113402.692:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113402.693:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113402.717:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113404.261:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 1ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113405.684:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113408.718:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-sUlDBS\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113408.726:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 4456ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113408.732:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 4473ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113408.732:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 4472ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113408.740:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Running the calculateMetadata() function for composition ShortEN" handle was cleared after 1ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.013:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.032:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 14ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.043:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.048:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 18ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.062:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 13ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.074:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 63ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.075:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 64ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.080:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 19ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.081:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 33ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.100:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.107:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 68ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.109:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 69ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.119:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 2ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.119:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 40ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.149:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.157:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 19ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.182:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 87ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.184:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 88ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.198:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 40ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.198:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 16ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.198:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 31ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.238:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 94ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.239:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 94ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.242:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 46ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.242:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.283:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 17ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.284:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 33ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.307:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 68ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.308:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 68ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.309:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.314:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 32ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.339:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.342:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 15ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.344:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 28ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.360:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 15ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.366:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 61ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.366:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 61ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.371:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 29ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.374:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 17ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.384:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 50ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.386:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.388:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 52ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.390:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 18ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.396:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 2ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.402:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 2" handle was cleared after 1ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.402:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 1" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.402:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 0" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.403:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 4" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.403:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 3" handle was cleared after 1ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.403:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 6" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.406:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 5" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.428:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Waiting for Composition "ShortEN"" handle was cleared after 18ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.452:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"latin"}" handle was cleared after 69ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.455:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Fetching Russo One font {"style":"normal","weight":"400","subset":"cyrillic"}" handle was cleared after 72ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.470:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Loading <Img> with src=/public/keyart.jpg" handle was cleared after 43ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.496:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 7" handle was cleared after 0ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.907:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 8" handle was cleared after 3ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.908:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 9" handle was cleared after 4ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.911:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 11" handle was cleared after 3ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.911:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 10" handle was cleared after 4ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.916:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 12" handle was cleared after 6ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.918:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 13" handle was cleared after 5ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.935:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 14" handle was cleared after 10ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113409.939:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 15" handle was cleared after 6ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.229:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 17" handle was cleared after 2ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.229:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 16" handle was cleared after 2ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.230:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 18" handle was cleared after 2ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.231:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 19" handle was cleared after 2ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.233:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 20" handle was cleared after 2ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.237:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 21" handle was cleared after 6ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.240:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 22" handle was cleared after 4ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.253:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 23" handle was cleared after 12ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.406:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 24" handle was cleared after 31ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.427:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 25" handle was cleared after 36ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.483:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 26" handle was cleared after 26ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.591:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 28" handle was cleared after 4ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113410.591:INFO:CONSOLE:3329] "Symbol(__remotion_tag_delayRender()) Symbol(__remotion_level_verbose) "Setting the current frame to 27" handle was cleared after 4ms", source: http://localhost:3000/bundle.js (3329)
+[1108/113430.945:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Code Cache\wasm
+[1108/113430.945:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Code Cache\js
+[1108/113430.946:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Code Cache\wasm
+[1108/113430.946:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Code Cache\wasm
+[1108/113430.946:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Code Cache\js
+[1108/113430.946:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Code Cache\js
+[1108/113430.946:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Network: Отказано в доступе. (0x5)
+[1108/113430.946:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113430.946:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113430.946:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113430.947:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113430.963:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113430.964:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113430.965:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113430.965:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113430.965:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113430.965:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113430.965:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113430.965:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113430.965:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113430.966:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113430.966:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113430.967:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113433.973:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113437.002:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113440.028:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113443.074:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113446.126:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-conJPE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113652.748:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Code Cache\wasm
+[1108/113652.748:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Code Cache\js
+[1108/113652.749:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Code Cache\wasm
+[1108/113652.749:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Code Cache\js
+[1108/113652.749:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Code Cache\wasm
+[1108/113652.749:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Code Cache\js
+[1108/113652.748:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Network: Отказано в доступе. (0x5)
+[1108/113652.749:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113652.749:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113652.749:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113652.749:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113652.772:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113652.772:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113652.773:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113652.773:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113652.773:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113652.773:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113652.773:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113652.773:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113652.773:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113652.773:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113652.773:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113652.774:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113655.780:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113658.817:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113701.847:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113704.880:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113707.931:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-INyJB7\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113839.178:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Code Cache\wasm
+[1108/113839.178:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Code Cache\js
+[1108/113839.179:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Network: Отказано в доступе. (0x5)
+[1108/113839.179:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Code Cache\wasm
+[1108/113839.179:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Code Cache\wasm
+[1108/113839.179:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Code Cache\js
+[1108/113839.179:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Code Cache\js
+[1108/113839.179:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113839.179:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113839.179:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113839.179:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113839.202:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/113839.202:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113839.202:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113839.202:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/113839.202:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113839.203:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113839.203:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113839.203:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113839.203:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/113839.203:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/113839.203:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/113839.205:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/113842.217:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113845.256:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113848.291:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113851.339:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/113854.384:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-gpD0xl\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114034.197:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Code Cache\wasm
+[1108/114034.197:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Code Cache\js
+[1108/114034.197:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Network: Отказано в доступе. (0x5)
+[1108/114034.198:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Code Cache\js
+[1108/114034.198:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Code Cache\js
+[1108/114034.198:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Code Cache\wasm
+[1108/114034.198:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Code Cache\wasm
+[1108/114034.198:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114034.198:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114034.198:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114034.198:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114034.221:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/114034.222:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/114034.222:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114034.222:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114034.222:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114034.222:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114034.222:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114034.222:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114034.222:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114034.222:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114034.222:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114034.227:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/114037.219:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114040.257:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114043.299:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114046.335:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114049.375:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-hsbk3p\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114206.550:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Code Cache\js
+[1108/114206.550:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Code Cache\wasm
+[1108/114206.550:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Network: Отказано в доступе. (0x5)
+[1108/114206.551:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Code Cache\wasm
+[1108/114206.551:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Code Cache\wasm
+[1108/114206.551:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Code Cache\js
+[1108/114206.551:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Code Cache\js
+[1108/114206.551:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114206.551:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114206.551:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114206.551:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114206.570:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/114206.570:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/114206.571:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114206.571:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114206.571:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114206.571:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114206.571:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114206.571:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114206.571:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114206.571:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114206.571:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114206.575:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/114209.564:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114212.600:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114215.666:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114218.713:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114221.772:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-CI0kxE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114329.063:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Code Cache\js
+[1108/114329.063:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Code Cache\wasm
+[1108/114329.063:ERROR:content\browser\network_sandbox.cc:518] Failed to create network context data directory C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Network: Отказано в доступе. (0x5)
+[1108/114329.064:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Code Cache\wasm
+[1108/114329.064:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Code Cache\wasm
+[1108/114329.064:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114329.064:ERROR:net\disk_cache\simple\simple_backend_impl.cc:82] Failed to create directory: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Code Cache\js
+[1108/114329.064:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114329.064:ERROR:net\disk_cache\simple\simple_backend_impl.cc:752] Simple Cache Backend: wrong file structure on disk: 1 path: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Code Cache\js
+[1108/114329.064:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114329.064:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114329.088:ERROR:content\browser\network_sandbox_grant_result_helper.cc:108] Encountered error while migrating network context data or granting sandbox access for C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\Network. Result: 2: Операция успешно завершена. (0x0)
+[1108/114329.089:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114329.089:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114329.089:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Системе не удается найти указанный путь. (0x3)
+[1108/114329.089:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114329.090:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114329.090:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114329.090:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114329.090:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1108/114329.090:ERROR:gpu\ipc\host\gpu_disk_cache.cc:804] Gpu Cache Creation failed: -2
+[1108/114329.091:ERROR:content\browser\devtools\devtools_http_handler.cc:316] Error writing DevTools active port to file C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\DevToolsActivePort: Отказано в доступе. (0x5)
+[1108/114329.093:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1108/114332.091:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\PersistentOriginTrials: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\PersistentOriginTrials/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114335.128:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114338.156:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114341.196:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
+[1108/114344.241:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata: IO error: C:\Users\stopm\AppData\Local\Temp\puppeteer_dev_chrome_profile-UwuPrE\Default\shared_proto_db\metadata/LOCK: File not found. (ChromeMethodBFE: 15::LockFile::4)
