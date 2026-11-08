@@ -1,37 +1,32 @@
-# Frontlines — social media posts
+# WW3: High Command - social media posts
 
-Game link: https://www.roblox.com/games/82985206341847
+Game link: https://www.roblox.com/games/102627842655633
 
-## Video 1 — world timelapse (EN) · frontlines-en-1.mp4
+Files in this folder (mp4 are not committed to git):
+- `ww3-short-en.mp4` / `ww3-short-ru.mp4` - 9:16, 27 s, real gameplay (Shorts / Reels / TikTok)
+- `ww3-trailer-16x9.mp4` - 16:9, 36 s, for the Creator Hub store page (Media) and YouTube
 
-**Caption:** 300 empires start on one world map. Only one survives. Which one would you be? 🌍⚔️
-Search FRONTLINES on Roblox — free to play 🌍
+## Short EN (ww3-short-en.mp4)
 
-**Hashtags:** #roblox #robloxgames #strategy #mapgame #worldmap #ww3 #geography #openfront #frontlines #gaming
+**Caption:** You start with one tiny region. 300 players and bots fight for the same map. Who rules the world? 🌍⚔️ Free on Roblox: WW3: High Command
 
-## Video 2 — world timelapse (PL) · frontlines-pl-1.mp4
+**Hashtags:** #roblox #robloxgames #strategy #worldwar3 #ww3 #mapgame #geography #nukes #gaming #fyp
 
-**Opis:** 300 państw startuje na jednej mapie świata. Przetrwa tylko jedno. Kim byś był? 🌍⚔️
-Wpisz FRONTLINES na Robloxie — gra za darmo 🌍
+## Short RU (ww3-short-ru.mp4)
 
-**Hashtagi:** #roblox #robloxpolska #gry #strategia #mapaświata #geografia #frontlines #dlaciebie #fyp
+**Подпись:** Ты начинаешь с крошечного клочка земли, а вокруг - сотни ботов и игроков. Кто захватит мир? 🌍⚔️ Бесплатно в Roblox: WW3: High Command
 
-## Video 3 — nukes (EN) · frontlines-en-nukes.mp4
-
-**Caption:** When the nukes start flying 💥 Build silos, shoot them down with SAMs… or betray your ally at the perfect moment.
-Search FRONTLINES on Roblox 🌍
-
-**Hashtags:** #roblox #robloxgames #nuke #strategy #worldmap #ww3 #frontlines #gaming #fyp
+**Хэштеги:** #roblox #роблокс #стратегия #третьямировая #ww3 #карта #география #ядерка #игры #рекомендации
 
 ## Bio (TikTok / Instagram / YouTube)
 
-EN: 🌍 Conquer the world, one border at a time. FRONTLINES on Roblox 👇
-PL: 🌍 Podbij świat, granica po granicy. FRONTLINES na Robloxie 👇
-Link: https://www.roblox.com/games/82985206341847
+EN: 🌍 Conquer the world, one border at a time. WW3: High Command - free on Roblox 👇
+RU: 🌍 Завоюй мир, граница за границей. WW3: High Command - бесплатно в Roblox 👇
+Link: https://www.roblox.com/games/102627842655633
 
 ## Posting plan (first 2 weeks)
 
-- 1 video a day, 17:00–20:00 local time (best for teen audience).
-- Alternate: timelapse, nukes, "betrayal" moments, map comparisons ("Which map next?").
+- 1 video a day, 17:00-20:00 local time (best for teen audience). Alternate: timelapse, nukes, betrayal moments, "which map next?".
 - Reply to every comment in the first hour; pin a comment with the game link.
-- Reuse each video on YouTube Shorts and Instagram Reels (same files, 9:16).
+- Reuse each video on YouTube Shorts and Instagram Reels (same file).
+- Post in Russian-speaking Roblox / strategy communities (Telegram, VK, Discord) with the RU version.
