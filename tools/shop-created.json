@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Supporter",
+    "kind": "pass",
+    "id": 2076213876
+  },
+  {
+    "name": "Custom colour",
+    "kind": "pass",
+    "id": 2075907828
+  },
+  {
+    "name": "Host Pass",
+    "kind": "pass",
+    "id": 2074353821
+  },
+  {
+    "name": "Deal of the day",
+    "kind": "product",
+    "id": 3729461864
+  },
+  {
+    "name": "Stripes (territory pattern)",
+    "kind": "product",
+    "id": 3729461866
+  },
+  {
+    "name": "Checker (territory pattern)",
+    "kind": "product",
+    "id": 3729461870
+  },
+  {
+    "name": "Dots (territory pattern)",
+    "kind": "product",
+    "id": 3729461876
+  },
+  {
+    "name": "Diagonal (territory pattern)",
+    "kind": "product",
+    "id": 3729461887
+  },
+  {
+    "name": "Bricks (territory pattern)",
+    "kind": "product",
+    "id": 3729461895
+  },
+  {
+    "name": "Grid (territory pattern)",
+    "kind": "product",
+    "id": 3729461902
+  },
+  {
+    "name": "Zigzag (territory pattern)",
+    "kind": "product",
+    "id": 3729461911
+  },
+  {
+    "name": "Waves (territory pattern)",
+    "kind": "product",
+    "id": 3729461917
+  },
+  {
+    "name": "Diamonds (territory pattern)",
+    "kind": "product",
+    "id": 3729461926
+  },
+  {
+    "name": "Crosses (territory pattern)",
+    "kind": "product",
+    "id": 3729461931
+  },
+  {
+    "name": "Rings (territory pattern)",
+    "kind": "product",
+    "id": 3729461935
+  },
+  {
+    "name": "Tartan (territory pattern)",
+    "kind": "product",
+    "id": 3729461941
+  },
+  {
+    "name": "Gold name (name colour)",
+    "kind": "product",
+    "id": 3729461943
+  },
+  {
+    "name": "Cyan name (name colour)",
+    "kind": "product",
+    "id": 3729461948
+  },
+  {
+    "name": "Pink name (name colour)",
+    "kind": "product",
+    "id": 3729461952
+  },
+  {
+    "name": "Red name (name colour)",
+    "kind": "product",
+    "id": 3729461959
+  },
+  {
+    "name": "Purple name (name colour)",
+    "kind": "product",
+    "id": 3729461962
+  },
+  {
+    "name": "Plasma blast (nuke blast colour)",
+    "kind": "product",
+    "id": 3729461965
+  },
+  {
+    "name": "Toxic blast (nuke blast colour)",
+    "kind": "product",
+    "id": 3729461975
+  },
+  {
+    "name": "Void blast (nuke blast colour)",
+    "kind": "product",
+    "id": 3729461979
+  },
+  {
+    "name": "Solar blast (nuke blast colour)",
+    "kind": "product",
+    "id": 3729461984
+  },
+  {
+    "name": "All patterns",
+    "kind": "product",
+    "id": 3729461989
+  },
+  {
+    "name": "Everything bundle",
+    "kind": "product",
+    "id": 3729461994
+  }
+]
