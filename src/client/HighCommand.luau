@@ -652,8 +652,18 @@ function HighCommand.new(net, lobbyScreen, opts)
 			buffer.writeu8(px, i * 4 + 2, buffer.readu8(rgb, i * 3 + 2))
 			buffer.writeu8(px, i * 4 + 3, 255)
 		end
-		local img = AssetService:CreateEditableImage({ Size = Vector2.new(t.w, t.h) })
-		img:WritePixelsBuffer(Vector2.zero, Vector2.new(t.w, t.h), px)
+		-- Never let a thumbnail kill the menu (EditableImage disabled / out of budget).
+		local ok, img = pcall(function()
+			local e = AssetService:CreateEditableImage({ Size = Vector2.new(t.w, t.h) })
+			if e then
+				e:WritePixelsBuffer(Vector2.zero, Vector2.new(t.w, t.h), px)
+			end
+			return e
+		end)
+		if not ok or img == nil then
+			thumbCache[entry.id] = false
+			return false
+		end
 		thumbCache[entry.id] = img
 		return img
 	end
@@ -875,16 +885,62 @@ function HighCommand.new(net, lobbyScreen, opts)
 		local bl = Instance.new("UIListLayout")
 		bl.Padding = UDim.new(0, 10)
 		bl.Parent = btns
-		local status = text(p, "Status", "", 14, P.gold, F.body)
-		status.Position = UDim2.fromOffset(24, 410)
-		status.Size = UDim2.fromOffset(600, 60)
+		-- Join code of the private match / arena we are on: big, framed and selectable,
+		-- so the host sees at once that the new server is theirs and what to send.
+		local card = Instance.new("Frame")
+		card.Name = "CodeCard"
+		-- Last item of the button list, so it sits right under the buttons.
+		card.LayoutOrder = 100
+		card.Size = UDim2.new(1, 0, 0, 118)
+		card.BackgroundColor3 = Color3.fromRGB(20, 22, 60)
+		card.BorderSizePixel = 0
+		card.Visible = false
+		card.Parent = btns
+		corner(card, 2)
+		stroke(card, P.gold, 2, 0)
+		local cap = text(card, "Caption", if isDuel
+			then L("ТЫ НА СВОЕЙ АРЕНЕ · КОД ДЛЯ СОПЕРНИКА", "YOU ARE IN YOUR ARENA · CODE FOR YOUR RIVAL")
+			else L("ТЫ НА СВОЁМ СЕРВЕРЕ · КОД ДЛЯ ДРУЗЕЙ", "YOU ARE ON YOUR SERVER · CODE FOR FRIENDS"), 16, P.gold, F.small)
+		cap.Position = UDim2.fromOffset(16, 10)
+		cap.Size = UDim2.new(1, -32, 0, 18)
+		local codeBox = Instance.new("TextBox")
+		codeBox.Name = "Code"
+		codeBox.Position = UDim2.fromOffset(16, 36)
+		codeBox.Size = UDim2.fromOffset(260, 66)
+		codeBox.BackgroundColor3 = P.dark
+		codeBox.BorderSizePixel = 0
+		codeBox.FontFace = F.title
+		codeBox.TextSize = 48
+		codeBox.TextColor3 = P.parchment
+		codeBox.TextEditable = false
+		codeBox.ClearTextOnFocus = false
+		codeBox.Text = ""
+		codeBox.Parent = card
+		corner(codeBox, 2)
+		stroke(codeBox, P.gold, 1, 0.2)
+		codeBox.Focused:Connect(function()
+			-- select the whole code so Ctrl+C copies it
+			codeBox.SelectionStart = 1
+			codeBox.CursorPosition = #codeBox.Text + 1
+		end)
+		local hint = text(card, "Hint", L(
+			"Друг: " .. (if isDuel then "1 vs 1 DUEL" else "ONLINE WAR") .. " → поле JOIN CODE → JOIN WAR.\nНажми на код, чтобы выделить (Ctrl+C).",
+			"Friend: " .. (if isDuel then "1 vs 1 DUEL" else "ONLINE WAR") .. " → JOIN CODE box → JOIN WAR.\nClick the code to select it (Ctrl+C)."), 14, P.text, F.body)
+		hint.Position = UDim2.fromOffset(296, 38)
+		hint.Size = UDim2.new(1, -312, 0, 64)
+		hint.TextWrapped = true
+		hint.TextYAlignment = Enum.TextYAlignment.Top
+		local status = text(p, "Status", "", 16, P.gold, F.body)
+		status.Position = UDim2.fromOffset(24, 466)
+		status.Size = UDim2.new(1, -48, 0, 60)
 		status.TextWrapped = true
 		status.TextYAlignment = Enum.TextYAlignment.Top
-		return s, btns, status
+		return s, btns, status, card
 	end
 
-	local online, onlineBtns, onlineStatus = buildMatchScreen("ONLINE", L("ОНЛАЙН-ВОЙНА", "ONLINE WAR"))
+	local online, onlineBtns, onlineStatus, onlineCard = buildMatchScreen("ONLINE", L("ОНЛАЙН-ВОЙНА", "ONLINE WAR"))
 	self.onlineStatus = onlineStatus
+	self.onlineCodeCard = onlineCard
 	local quick = Instance.new("Frame")
 	quick.Size = UDim2.new(1, 0, 0, 58)
 	quick.BackgroundTransparency = 1
@@ -903,6 +959,7 @@ function HighCommand.new(net, lobbyScreen, opts)
 	createBtn.Activated:Connect(function()
 		self:_matchmake("create_private", L("Создаю приватный сервер…", "Creating a private server…"))
 	end)
+	self.onlineCreateRow = create
 	local joinRow = Instance.new("Frame")
 	joinRow.Size = UDim2.new(1, 0, 0, 46)
 	joinRow.BackgroundTransparency = 1
@@ -936,8 +993,7 @@ function HighCommand.new(net, lobbyScreen, opts)
 	joinBtn.Activated:Connect(function()
 		local code = string.upper((string.gsub(box.Text, "%s", "")))
 		if #code > 0 then
-			self.net.Intent:FireServer({ type = "join_code", code = code })
-			self:_status(onlineStatus, L("Вхожу по коду " .. code .. "…", "Joining with code " .. code .. "…"))
+			self:_matchmake("join_code", L("Вхожу по коду " .. code .. "…", "Joining with code " .. code .. "…"), { code = code })
 		end
 	end)
 
@@ -960,8 +1016,9 @@ function HighCommand.new(net, lobbyScreen, opts)
 	end)
 	self.onlineStartBtn = onlineStart
 
-	local duel, duelBtns, duelStatus = buildMatchScreen("DUEL", L("ДУЭЛЬ 1×1", "1 vs 1 DUEL"))
+	local duel, duelBtns, duelStatus, duelCard = buildMatchScreen("DUEL", L("ДУЭЛЬ 1×1", "1 vs 1 DUEL"), true)
 	self.duelStatus = duelStatus
+	self.duelCodeCard = duelCard
 	local dCreate = Instance.new("Frame")
 	dCreate.Size = UDim2.new(1, 0, 0, 58)
 	dCreate.BackgroundTransparency = 1
@@ -972,6 +1029,7 @@ function HighCommand.new(net, lobbyScreen, opts)
 		self:_matchmake("create_private", L("Создаю арену 1v1…", "Creating a 1v1 arena…"), { duel = true })
 		self.mode = "DUEL"
 	end)
+	self.duelCreateRow = dCreate
 	local dJoinRow = Instance.new("Frame")
 	dJoinRow.Size = UDim2.new(1, 0, 0, 46)
 	dJoinRow.BackgroundTransparency = 1
@@ -983,8 +1041,7 @@ function HighCommand.new(net, lobbyScreen, opts)
 	dJoinBtn.Activated:Connect(function()
 		local code = string.upper((string.gsub(dBox.Text, "%s", "")))
 		if #code > 0 then
-			self.net.Intent:FireServer({ type = "join_code", code = code })
-			self:_status(duelStatus, L("Вхожу по коду " .. code .. "…", "Joining with code " .. code .. "…"))
+			self:_matchmake("join_code", L("Вхожу по коду " .. code .. "…", "Joining with code " .. code .. "…"), { code = code, duel = true })
 		end
 	end)
 	local duelStart = Instance.new("TextButton")
@@ -1311,10 +1368,48 @@ function HighCommand.new(net, lobbyScreen, opts)
 		for k, v in extra or {} do
 			msg[k] = v
 		end
+		local label = if msg.duel then self.duelStatus else self.onlineStatus
+		-- A teleport takes a few seconds; repeated clicks used to create a chain of
+		-- new empty servers. Ignore clicks until it lands or fails.
+		if self._mmBusy and os.clock() < self._mmBusy then
+			self:_status(label, L("Уже переношу на сервер, подожди…", "Already moving you to a server, hold on…"))
+			return
+		end
+		self._mmBusy = os.clock() + 20
 		self.net.Intent:FireServer(msg)
 		if notice then
-			self:_status(if msg.duel then self.duelStatus else self.onlineStatus, notice)
+			self:_status(label, notice .. L("  Сейчас будет экран загрузки.", "  A loading screen will appear."))
 		end
+	end
+
+	local function matchmakeDone(txt)
+		self._mmBusy = nil
+		-- keep the answer readable instead of the next lobby refresh overwriting it
+		self._mmHoldUntil = os.clock() + 5
+		if txt then
+			self:_status(self.onlineStatus, txt)
+			self:_status(self.duelStatus, txt)
+		end
+	end
+	pcall(function()
+		game:GetService("TeleportService").TeleportInitFailed:Connect(function(player, result, errorMessage)
+			if player == Players.LocalPlayer then
+				matchmakeDone(L("Не удалось перейти на сервер: ", "Could not move to the server: ") .. tostring(errorMessage or result) .. L(". Попробуй ещё раз.", ". Try again."))
+			end
+		end)
+	end)
+	if self.net and self.net.Event then
+		self.net.Event.OnClientEvent:Connect(function(evt)
+			if type(evt) ~= "table" then
+				return
+			elseif evt.type == "AlreadyInLobby" then
+				matchmakeDone(L("Ты уже в онлайн-лобби: матч начнётся сам, когда закончится отсчёт.", "You are already in the online lobby: the match starts when the countdown ends."))
+			elseif evt.type == "JoinCodeFailed" then
+				matchmakeDone(L("Нет матча с таким кодом. Проверь код (буквы и цифры, 6 знаков).", "No match with that code. Check it (6 letters/digits)."))
+			elseif evt.type == "MatchmakeFailed" then
+				matchmakeDone(L("Не получилось создать сервер, попробуй ещё раз.", "Could not create a server, try again."))
+			end
+		end)
 	end
 
 	-- The options picked on the SOLO CAMPAIGN screen.
@@ -1384,6 +1479,17 @@ function HighCommand.new(net, lobbyScreen, opts)
 			self:hide()
 			self.inMatch = true
 			self.matchStarted = true
+			-- The lobby countdown is over; don't leave "STARTS IN 1 S" on the menu.
+			local live = L("МАТЧ ИДЁТ · «НАЗАД В ИГРУ» ВЕРНЁТ НА КАРТУ", "MATCH IN PROGRESS · \"BACK TO GAME\" RETURNS TO THE MAP")
+			if self.mainStatus then
+				self.mainStatus.Text = live
+			end
+			if self.onlineStatus then
+				self.onlineStatus.Text = live
+			end
+			if self.duelStatus then
+				self.duelStatus.Text = live
+			end
 			return
 		end
 		if st.settings then
@@ -1414,29 +1520,53 @@ function HighCommand.new(net, lobbyScreen, opts)
 			-- The old lobby screen (countdown, players, code) is hidden by this shell, so the
 			-- server state is shown on MAIN and on the ONLINE / DUEL screens instead.
 			local statusText = ""
+			local screenText = "" -- ONLINE / DUEL screens (the code itself sits in the card there)
 			if st.mode == "public" then
 				statusText = L("ПУБЛИЧНЫЙ МАТЧ · ИГРОКОВ: ", "PUBLIC MATCH · PLAYERS: ") .. tostring(#(st.players or {}))
 				if st.secondsLeft then
 					statusText ..= "  ·  " .. L("СТАРТ ЧЕРЕЗ ", "STARTS IN ") .. tostring(st.secondsLeft) .. L(" С", " S")
 				end
 				statusText ..= "\n" .. L("КАРТА: ", "MAP: ") .. string.upper(tostring(mapName)) .. L("  ·  ИЛИ ВЫБЕРИ СОЛО-КАМПАНИЮ", "  ·  OR PICK SOLO CAMPAIGN")
+				screenText = L("ТЫ В ОНЛАЙН-ЛОББИ. ", "YOU ARE IN THE ONLINE LOBBY. ") .. statusText
 			elseif st.mode == "custom" and st.canMatchmake == true then
 				local code = if st.joinCode then L("КОД: ", "JOIN CODE: ") .. tostring(st.joinCode) .. "  ·  " else ""
-				statusText = code .. L("ИГРОКОВ: ", "PLAYERS: ") .. tostring(#(st.players or {})) .. "\n" .. (if isHost
-					then L("Отправь код друзьям и жми НАЧАТЬ МАТЧ / НАЧАТЬ ДУЭЛЬ.", "Send the code to friends, then press START MATCH / START DUEL.")
+				local rest = L("ИГРОКОВ: ", "PLAYERS: ") .. tostring(#(st.players or {})) .. "\n" .. (if isHost
+					then L("Отправь код и жми НАЧАТЬ МАТЧ / НАЧАТЬ ДУЭЛЬ, когда все зайдут.", "Send the code, then press START MATCH / START DUEL once everyone is in.")
 					else L("Ждём, пока хост начнёт матч…", "Waiting for the host to start…"))
+				statusText = code .. rest
+				screenText = if st.joinCode then rest else statusText
 			end
 			if self.mainStatus then
 				self.mainStatus.Text = statusText
 			end
-			if self.onlineStatus and statusText ~= "" then
-				self.onlineStatus.Text = statusText
+			local moving = (self._mmBusy ~= nil and os.clock() < self._mmBusy)
+				or (self._mmHoldUntil ~= nil and os.clock() < self._mmHoldUntil)
+			if self.onlineStatus and screenText ~= "" and not moving then
+				self.onlineStatus.Text = screenText
 			end
-			if self.duelStatus and st.mode == "custom" and statusText ~= "" then
-				self.duelStatus.Text = statusText
+			if self.duelStatus and st.mode == "custom" and screenText ~= "" and not moving then
+				self.duelStatus.Text = screenText
 			end
 			if self.onlineStartBtn then
 				self.onlineStartBtn.Visible = st.mode == "custom" and isHost
+			end
+			-- On our own private server / arena: show the big code card and hide
+			-- "create" (pressing it again would just make yet another empty server).
+			local inArena = st.mode == "custom" and st.joinCode ~= nil
+			for _, card in { self.onlineCodeCard, self.duelCodeCard } do
+				if card then
+					card.Visible = inArena
+					local box = card:FindFirstChild("Code")
+					if inArena and box and box.Text ~= tostring(st.joinCode) then
+						box.Text = tostring(st.joinCode)
+					end
+				end
+			end
+			if self.onlineCreateRow then
+				self.onlineCreateRow.Visible = st.mode ~= "custom"
+			end
+			if self.duelCreateRow then
+				self.duelCreateRow.Visible = st.mode ~= "custom"
 			end
 			-- First lobby state on this server: open the screen that matches how we got here.
 			if not self._arrivalHandled then

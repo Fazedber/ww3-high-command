@@ -52,8 +52,21 @@ local function thumbImage(entry)
 		buffer.writeu8(px, i * 4 + 2, buffer.readu8(rgb, i * 3 + 2))
 		buffer.writeu8(px, i * 4 + 3, 255)
 	end
-	local img = AssetService:CreateEditableImage({ Size = Vector2.new(t.w, t.h) })
-	img:WritePixelsBuffer(Vector2.zero, Vector2.new(t.w, t.h), px)
+	-- A thumbnail must never take the whole client down: on a live server
+	-- CreateEditableImage throws if "Allow Mesh / Image APIs" is off, and it
+	-- returns nil when the device's EditableImage memory budget is used up.
+	local ok, img = pcall(function()
+		local e = AssetService:CreateEditableImage({ Size = Vector2.new(t.w, t.h) })
+		if e then
+			e:WritePixelsBuffer(Vector2.zero, Vector2.new(t.w, t.h), px)
+		end
+		return e
+	end)
+	if not ok or img == nil then
+		warn("[LobbyScreen] map thumbnail unavailable: " .. tostring(img))
+		thumbCache[entry.id] = false
+		return false
+	end
 	thumbCache[entry.id] = img
 	return img
 end

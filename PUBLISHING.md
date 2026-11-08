@@ -17,6 +17,9 @@
 2. File -> Publish to Roblox As... -> new experience, name, description (`art/DESCRIPTION.md`).
 3. Game Settings:
    - Security -> **Enable Studio Access to API Services** (DataStores/MemoryStores in Studio).
+   - Security -> **Allow Mesh / Image APIs** MUST be ON. The whole client renders with EditableImage; with it off, a published
+     server fails with "EditableImage is not accessible" in LobbyScreen and the client hangs on "Waiting for the match to start"
+     (works in Studio regardless). Set via Studio: File > Experience Settings > Security (needs the cloud place open, not the local file).
    - Basic Info: genre Strategy, devices (PC, phone, tablet, console optional), Maturity questionnaire.
    - Permissions: keep Private until tested, then Public.
    - Max players: matchmaking uses the place's Max Players.

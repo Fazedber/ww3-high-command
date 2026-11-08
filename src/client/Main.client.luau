@@ -315,7 +315,18 @@ local function rebuildLocaleUI()
 	end
 end
 rebuildLocaleUI()
+local gotState = false
+task.spawn(function()
+	-- Ask for the snapshot until it arrives (the server's first send can be lost
+	-- if it fires before this script connected). Harmless in a lobby: the server
+	-- only answers once a match is running.
+	while not gotState do
+		Net.Intent:FireServer({ type = "request_state" })
+		task.wait(3)
+	end
+end)
 local state = Net.GameState.OnClientEvent:Wait()
+gotState = true
 -- A match is already running: the main menu must not cover it (this also
 -- covers joining a match in progress / a fresh match after "new game").
 if highCommand then

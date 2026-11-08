@@ -406,9 +406,17 @@ Net.Intent.OnServerEvent:Connect(function(player: Player, intent)
 		return -- one teleport request per 5 s (burst 2)
 	end
 	if intent.type == "find_match" then
-		Matchmaking.findMatch(player)
+		if lobby.mode == "public" and not lobby.started then
+			-- Already in a public lobby that is counting down: moving to another
+			-- (usually empty) lobby only splits players up.
+			Net.Event:FireClient(player, { type = "AlreadyInLobby" })
+		elseif not Matchmaking.findMatch(player) then
+			Net.Event:FireClient(player, { type = "MatchmakeFailed" })
+		end
 	elseif intent.type == "create_private" then
-		Matchmaking.createPrivate(player, intent.duel == true)
+		if not Matchmaking.createPrivate(player, intent.duel == true) then
+			Net.Event:FireClient(player, { type = "MatchmakeFailed" })
+		end
 	elseif intent.type == "play_solo" then
 		if lobby.mode == "solo" and lobby.started then
 			-- Already on our own server: a fresh match right here is much faster
@@ -889,6 +897,14 @@ Players.PlayerAdded:Connect(function(p)
 		Net.Event:FireClient(p, { type = "MatchInProgress", autoSeconds = 8 })
 	end
 	lastFlags = "" -- resend name flags
+end)
+-- The snapshot above can be fired before the client script has connected (the
+-- client then hangs on "Waiting for the match to start"), so clients ask again.
+Net.Intent.OnServerEvent:Connect(function(player: Player, intent)
+	if type(intent) == "table" and intent.type == "request_state" and allow(player, "request_state", 0.5, 3) then
+		sendState(player)
+		lastFlags = ""
+	end
 end)
 
 -- Intents -------------------------------------------------------------------------
