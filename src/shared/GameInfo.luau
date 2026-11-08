@@ -6,6 +6,6 @@ return table.freeze({
 	-- AGPL section 7(b): keep this notice visible (lobby footer).
 	COPYRIGHT = "© OpenFront and Contributors",
 	-- Where players get the source of the version they play (AGPL section 13).
-	SOURCE_URL = "",
+	SOURCE_URL = "https://github.com/Fazedber/ww3-high-command",
 	LICENSE = "AGPL-3.0",
 })
